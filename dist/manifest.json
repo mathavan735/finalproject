@@ -1,0 +1,47 @@
+{
+  "short_name": "Watch Dog",
+  "name": "Watch Dog - Intelligent Surveillance",
+  "icons": [
+    {
+      "src": "watchdog-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "watchdog-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "orientation": "portrait",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.watchdog.app",
+      "url": "https://play.google.com/store/apps/details?id=com.watchdog.app"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/watchdog/id123456789"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Camera Mode",
+      "url": "/camera",
+      "icons": [{ "src": "watchdog-logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "CCTV Mode",
+      "url": "/cctv",
+      "icons": [{ "src": "watchdog-logo.png", "sizes": "192x192" }]
+    }
+  ]
+}

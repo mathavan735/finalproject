@@ -1,0 +1,22 @@
+{
+  "appId": "com.watchdog.app",
+  "appName": "Watch Dog",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#000000"
+    },
+    "Camera": {
+      "ios": {
+        "NSCameraUsageDescription": "Required for object detection"
+      },
+      "android": {
+        "permissions": ["android.permission.CAMERA"]
+      }
+    }
+  }
+}
